@@ -1,10 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>My Awesome Website</title>
+  <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-  <h1>こんにちは、世界！</h1>
-  <p>これはGitHub Pagesで公開されたサイトです。</p>
+  <div class="container">
+    <h1 class="reveal">こんにちは、世界！</h1>
+    <p class="reveal">これは GitHub Pages で公開されたサイトです。少しスタイリッシュに生まれ変わりました。</p>
+    <button id="themeToggle" class="btn reveal" type="button" aria-pressed="false">テーマを切り替える</button>
+  </div>
+  <script src="./script.js"></script>
 </body>
 </html>
